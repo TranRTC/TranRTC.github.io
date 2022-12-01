@@ -13,17 +13,19 @@ body{
 
 header{
     
-    height: 10vh;
+   
+    height: 20vh;
     text-align: center;
-    display: flex;
+    line-height: 20vh;
     
+
 }
+
 
 
 nav{
     display: flex;
     justify-content: center;
-    
     column-gap: 10%;
     height: 10vh;
     
@@ -31,9 +33,11 @@ nav{
 main{
    
     height: 70vh;
+
 }
 
 footer{
     background-color: green;
+    height: 10vh;
     
 }
