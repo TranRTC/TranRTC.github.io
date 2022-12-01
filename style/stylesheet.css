@@ -8,17 +8,14 @@
 body{
     background-color: rgb(47, 160, 122);
     font-family: 'Rosario', sans-serif;
-    
-}
+    }
 
 header{
-    
-   
+       
     height: 20vh;
     text-align: center;
     line-height: 20vh;
     
-
 }
 
 
@@ -32,12 +29,15 @@ nav{
 }
 main{
    
-    height: 70vh;
+    height: 60vh;
 
 }
 
 footer{
-    background-color: green;
+    
     height: 10vh;
+    text-align: right;
+    position: relative;
+    left: -3%;
     
 }
