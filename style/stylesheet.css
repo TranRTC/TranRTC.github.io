@@ -8,18 +8,17 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color:seagreen;
+    background-color:mintcream;
     font-family: 'Rosario', sans-serif;
     font-size: 5vh;
     }
 
 header{
        
-    height: 20vh;
+    height: 15vh;
     text-align: left;
     line-height: 20vh;
-    position: relative;
-    left:10%;    
+    text-align: center;
 }
 
 
@@ -27,12 +26,12 @@ header{
 nav{
     display: flex;
     justify-content: center;
-    column-gap: 10%;
-    height: 10vh;    
+    column-gap: 5%;
+    height: 10vh;     
 }
 a:link{
     text-decoration-line: none;
-    color: blue;    
+    color: seagreen;    
 }
 
 a:hover {
@@ -44,7 +43,7 @@ a:active {
 }
 
 a:visited {
-    background-color: white;
+    background-color: skyblue;
 }
 
 
@@ -61,7 +60,11 @@ footer{
     flex-direction: column;
     height: 10vh;
     text-align: right;
-    position: relative;
-    left: -3%;
+    font-size: 2.5vh;
+    text-align: center;
         
+}
+span {
+    background-color: seagreen;
+    color: yellow;
 }
