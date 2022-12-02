@@ -4,34 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TranRTC Portfolio Page</title>
+    <title>Home</title>
     <link rel="stylesheet" href="/style/stylesheet.css"
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rosario&display=swap" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css2?family=Rosario&display=swap" rel="stylesheet"> 
+<style>
+    main{
+        display: flex;
+        justify-content: center;
+        column-gap: 1vh;
+               
+    }
+    .photo {
+        
+        width: 50vh;
+        height: 50vh;
+    }
+
+    main > div > img {
+        width: 50vh;
+        height: 50vh;
+    }
+
+    .education{
+        
+        display: flex;
+        flex-direction: column;
+        row-gap:1.5vh;
+        justify-content:center;
+        text-align: right;
+        
+        width: 50vh;
+        height: 50vh;
+        font-size: 3vh;               
+    }
+
+    
+
+</style>
+
 </head>
 <body>
     <header>    
-        <h4>TranRTC</h4>
+        <h4><span></span></h4>
     </header>
+
     <nav>
         <div><a href="/index.html">Home</a></div> 
-        <div><a href="/AboutMe.html">About Me</a></div>
+        <div><a href="/AboutMe.html">About<span>Me</span></a></div>
          <div><a href="/Projects.html">Projects</a></div>
-         <div><a href="/Contacts.html">Contacts</a></div>
- 
- 
+        <div><a href="/Contacts.html">Contacts</a></div>
     </nav>
+
     <main>
-        HOME 
+        <div class="photo">
+            <img src="/image/TranRTC.jpg"></div>
+
+        <div class="education">
+
+            <div id="R1"><span>Education</span></div>            
+            <div id="R2">Mechanical Engineering</div>
+            <div id="R3">Electrical Works</div>
+            <div id="R4">2021-202~: Programming</div>
+            <div id="R5"><span>Experience</span></div>
+            <div id="R6">Facility Maintenance</div>
+            <div id="R7"><span>New Journey</span></div>
+            <div id="R8">Web developer</div>
+            <div id="R9">IoT/SCADA Programming</div>            
+            
+        </div>       
+        
     </main>
  
     <footer>
-         <h4>Created By Quoc Bao Tran</h4>
-         <h6>Copy Right &copy; 2022 TranRTC All Right Reserve</h6>
+        <div>Copy Right &copy; 2022 by <span>TranRTC</span>. All Rights Reserved</div>
     </footer>  
-   
-  
-
+    
 </body>
 </html>
