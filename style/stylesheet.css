@@ -6,15 +6,21 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(47, 160, 122);
     font-family: 'Rosario', sans-serif;
+    font-size: 4;
     }
 
 header{
        
     height: 20vh;
-    text-align: center;
+    text-align: left;
     line-height: 20vh;
+    position: relative;
+    left:10%;
+
     
 }
 
@@ -24,20 +30,22 @@ nav{
     display: flex;
     justify-content: center;
     column-gap: 10%;
-    height: 10vh;
-    
+    height: 10vh;    
 }
 main{
    
+    display: flex;
     height: 60vh;
 
 }
 
 footer{
     
+    display: flex;
+    flex-direction: column;
     height: 10vh;
     text-align: right;
     position: relative;
     left: -3%;
-    
+        
 }
