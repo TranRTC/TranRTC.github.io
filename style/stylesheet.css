@@ -68,3 +68,6 @@ span {
     background-color: seagreen;
     color: yellow;
 }
+@media screen and (min-width: 480px){
+    
+}
