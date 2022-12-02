@@ -8,9 +8,9 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: rgb(47, 160, 122);
+    background-color:seagreen;
     font-family: 'Rosario', sans-serif;
-    font-size: 4;
+    font-size: 5vh;
     }
 
 header{
@@ -19,9 +19,7 @@ header{
     text-align: left;
     line-height: 20vh;
     position: relative;
-    left:10%;
-
-    
+    left:10%;    
 }
 
 
@@ -32,6 +30,24 @@ nav{
     column-gap: 10%;
     height: 10vh;    
 }
+a:link{
+    text-decoration-line: none;
+    color: blue;    
+}
+
+a:hover {
+    background-color:turquoise ;
+}
+
+a:active {
+    background-color: red;
+}
+
+a:visited {
+    background-color: white;
+}
+
+
 main{
    
     display: flex;
