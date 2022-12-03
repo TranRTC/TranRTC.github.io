@@ -12,13 +12,44 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
 </link>  
 <style>
-    main {
+
+main {
+    display: flex;
+   /*  background-color: aqua; */
+    justify-content: center;
+    align-self: center;
+    width: 82vh;
+    column-gap: 2vh;
+    
+}
+
+.decoration {
+    display: grid;
+    grid-template-columns: 3vh 3vh 3vh 3vh 3vh;
+    row-gap: 7vh;
+    grid-template-rows: 3vh 3vh 3vh 3vh 3vh;
+    column-gap: 7vh;
+    justify-content: center;
+    width: 50vh;
+    margin-right: 2vh;
+    text-align: center;
+    line-height: 15vh;
+    margin-left: 2vh;
+         
+    
+}
+   
+
+.contacts {
         display: flex;
         justify-content: center;
         row-gap: 2vh;
         flex-direction: column;
         text-align: center;
         font-size: 3vh;
+        width: 30vh;
+        margin-right:2vh;
+        
     }
     
     @keyframes move {
@@ -28,9 +59,21 @@
     
     i{
         animation-name: move;
-        animation-duration: 2s;
+        animation-duration: 3s;
         animation-direction:reverse;
         
+    }
+    #D3, #D8, #D12, #D20 {
+        color: red;
+    }
+    #D1, #D6, #D18, #D20 {
+        color: seagreen;
+    }
+    #D14, #D16 {
+        color: orange
+    }
+    #D11, #D17{
+        color: yellowgreen
     }
 
 </style>
@@ -45,9 +88,34 @@
         <div><a href="/Contacts.html">Contacts</a></div>
     </nav>
     <main>
-        <div><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/">linked in</a></div>
-        <div><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com">facebook</a></div>
-        <div><i class="fa-brands fa-square-twitter"></i><a href="https://twitter.com">twitter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+        <div class="decoration">
+            <div id="D1">&#x2022</div>
+            <div id="D2"></div>
+            <div id="D3">&squarf;</div>
+            <div id="D4"></div>
+            <div id="D5"></div>
+            <div id="D6">&Square;</div>
+            <div id="D7"></div>
+            <div id="D8">&square;</div>
+            <div id="D9"></div>
+            <div id="D10"></div>
+            <div id="D11">&square;</div>
+            <div id="D12">&#x2022</div>
+            <div id="D13"></div>
+            <div id="D14">&square;</div>
+            <div id="D15"></div>
+            <div id="D16">&#9993</div>
+            <div id="D17">&blacksquare;</div>
+            <div id="D18">&square;</div>
+            <div id="D19"></div>
+            <div id="D20">&#x2022</div>
+        </div>
+        <div class="contacts">
+            <div><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/">linked in</a></div>
+            <div><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com">facebook</a></div>
+            <div><i class="fa-brands fa-square-twitter"></i><a href="https://twitter.com">twitter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+           
+        </div>
        
     </main>
  
