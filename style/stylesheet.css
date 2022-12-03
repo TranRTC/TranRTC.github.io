@@ -7,6 +7,7 @@
 
 body{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color:mintcream;
     font-family: 'Rosario', sans-serif;
@@ -19,6 +20,7 @@ header{
     text-align: left;
     line-height: 20vh;
     text-align: center;
+
 }
 
 
@@ -69,5 +71,5 @@ span {
     color: yellow;
 }
 @media screen and (min-width: 480px){
-    
+
 }
