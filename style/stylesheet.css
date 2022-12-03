@@ -28,7 +28,8 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 5%;
-    height: 10vh;     
+    height: 10vh;
+    font-size: 4vh;     
 }
 a:link{
     text-decoration-line: none;
@@ -68,7 +69,4 @@ footer{
 span {
     background-color: seagreen;
     color: yellow;
-}
-@media screen and (min-width: 480px){
-
 }
